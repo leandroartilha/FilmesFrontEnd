@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+}
+.filmesList{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.bloco{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.card{
+    margin: 0 2rem 4rem 2rem;
+    font-family: 'Rubik', sans-serif;
+    background-color: #cec5c5;
+    padding-bottom: 1rem;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    box-shadow: 0 0 1em rgb(51, 51, 51);
+}
+
+.card:hover{
+    background-color: #ccc1c1;
+    transition: 1000ms;
+}
+
+.card a{
+    margin-top: 0.5rem;
+    color: black;
+    text-decoration: none;
+}
+
+.imagemCard{
+    margin-top: 1rem;
+    width: 13rem;
+    height: 16rem;
+    border-radius: 1rem;
+    margin-left: 1.4rem;
+    margin-right: 1.4rem;
+}
+
+.editLixo{
+
+    display: flex;
+    text-align: center;
+    flex-direction:row;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.info{
+    --s: 0.1em;   /* the thickness of the line */
+    --c: #e42a23; /* the color */
+    
+    color: #0000;
+    padding-bottom: var(--s);
+    background: 
+      linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
+      linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: 0.5s;
+}
+
+.info:hover{
+    cursor: pointer;
+    --_p: 100%
+}
+
+.edit{
+    --s: 0.1em;   /* the thickness of the line */
+    --c: #1095c1; /* the color */
+    
+    color: #0000;
+    padding-bottom: var(--s);
+    background: 
+      linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
+      linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: 0.5s;
+}
+
+.edit:hover{
+    cursor: pointer;
+    --_p: 100%
+}
+
+.lixo{
+    --s: 0.1em;   /* the thickness of the line */
+    --c: #1095c1; /* the color */
+    
+    color: #0000;
+    padding-bottom: var(--s);
+    background: 
+      linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
+      linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: 0.5s;
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+
+.lixo:hover{
+    cursor: pointer;
+    --_p: 100%
+}
+
+.headerFilmes{
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(187, 6, 6);
+    margin-bottom: 2rem;
+    color: seashell;
+    list-style: none;
+}
+
+.headerFilmes h3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    margin-left: 21rem;
+}
+
+.headerFilmes a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 2rem;
+}

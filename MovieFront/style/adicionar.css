@@ -1,0 +1,80 @@
+.divCampos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+label{
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+input, select{
+    margin-right: 4rem;
+}
+
+input:target{
+    color: blue;
+}
+
+div{
+    margin-top: 3rem;
+}
+
+form{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+button{
+    font-size: 20px;
+    color:white;
+    background-color: green;
+    border-style: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(4, 201, 4);
+}
+
+.regiaoBotao{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5rem 30rem 10rem 30rem;
+}
+
+h3{
+    padding: 2rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.headerAdicionar{
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(187, 6, 6);
+    margin-bottom: 2rem;
+    color: seashell;
+}
+
+.headerAdicionar h3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    margin-left: 23rem;
+}
+
+.headerAdicionar a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 2rem;
+}
+select {
+    width: 5rem;
+}

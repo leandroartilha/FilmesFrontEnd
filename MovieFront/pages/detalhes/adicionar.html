@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../../main.js"></script>
+    <link rel="stylesheet" href="../../style/header.css">
+    <link rel="stylesheet" href="../../style/reset.css">
+    <link rel="stylesheet" href="../../style/style.css">
+    <link rel="stylesheet" href="../../style/adicionar.css">
+    <link rel="stylesheet" href="../../style/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Rubik:wght@500&display=swap" rel="stylesheet">
+        
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <header class="headerAdicionar">
+            <nav>
+                <ul>
+                  <li><a href="../../index.html">Voltar</a></li>
+                </ul>
+              </nav>
+            <h3 class="titulo">Adicionar Filme</h3>
+        </header>
+        <form >
+            <div class="divCampo">
+                <label>Nome:</label>
+                <input id="nomeFilme"type="text" required/>
+            
+                <label>Descrição:</label>
+                <input id="descricaoFilme" type="text" required/>
+            
+                <label>Url da Imagem:</label>
+                <input id="urlFilme"type="text" required/>
+            </div>
+            <div>
+                <label>Diretor:</label>
+                <input id="diretorFilme" type="text" />
+            
+                <label>Atores:</label>
+                <input id="atoresFilme" type="text" />
+            
+                <label>Ano:</label>
+                <input id="anoFilme"type="text" />
+            </div>
+            <div>
+                <label>Duração:</label>
+                <input id="duracaoFilme" type="text" />
+            
+                <label>Faixa Etária:</label>
+                <select id="faixaEtariaFilme">
+                    <option value="10">+10</option>
+                    <option value="12">+12</option>
+                    <option value="14">+14</option>
+                    <option value="16">+16</option>
+                    <option value="18">+18</option>
+                </select>
+           
+                <label>Nota</label>
+                <select id="notaFilme">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            
+                <label for="">Categoria</label>
+                <select id="categoriaFilme">
+                    <option value="1">Ação</option>
+                    <option value="2">Aventura</option>
+                    <option value="3">Comédia</option>
+                    <option value="4">Drama</option>
+                    <option value="5">Infantil</option>
+                    <option value="6">Terror</option>
+                </select>
+            </div> 
+    
+            <div class="regiaoBotao">
+                <button onclick="addNewMovie()">Adicionar</button>
+            </div>
+    
+        </form>
+        
+    </main>
+    <footer class="rodape">
+        &copyFilmes 2022
+    </footer>
+</body>
+</html>

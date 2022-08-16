@@ -1,0 +1,73 @@
+.headerCategorias{
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(187, 6, 6);
+    margin-bottom: 2rem;
+    color: seashell;
+    
+}
+
+.headerCategorias h3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    margin-left: 7rem;
+}
+
+.headerCategorias a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 2rem;
+}
+
+
+.headerEdit{
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(187, 6, 6);
+    margin-bottom: 2rem;
+    color: seashell;
+    padding: 1rem;
+    
+    font-family: 'Rubik', sans-serif;
+}
+
+.headerEdit h3{
+    
+    font-size: 2rem;
+    margin-left: 15rem;
+}
+
+.headerEdit a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 2rem;
+}
+
+.headerOnly{
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(187, 6, 6);
+    margin-bottom: 2rem;
+    color: seashell;
+}
+
+.headerOnly h3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    margin-left: 30rem;
+}
+
+.headerOnly a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 2rem;
+}

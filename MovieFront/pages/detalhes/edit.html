@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../../main.js"></script>
+    <link rel="stylesheet" href="../../style/adicionar.css">
+    <link rel="stylesheet" href="../../style/infos.css">
+    <link rel="stylesheet" href="../../style/reset.css">
+    <link rel="stylesheet" href="../../style/header.css">
+    <link rel="stylesheet" href="../../style/footer.css">
+
+    <title>Document</title>
+</head>
+<body>
+    
+        <header class="headerEdit">
+            <nav>
+                  <a href="../../index.html">Categorias</a>
+                  <a href="../../pages/filmes.html">Todos os Filmes</a>
+              </nav>
+            <h3 class="titulo">Atualizar Filme</h3>
+        </header>
+        <main class="blocao">
+        <div id="renderAtt">
+        </div>
+        <form class="formulario">
+            <div class="divCampo">
+                <label class="labelEdit">Nome:</label>
+                <input id="nomeFilmeEdit"type="text" />
+            
+                <label class="labelEdit">Descrição:</label>
+                <input id="descricaoFilmeEdit" type="text" />
+            </div>
+            <div>
+                <label class="labelEdit">Url da Imagem:</label>
+                <input id="urlFilmeEdit"type="text" />
+            
+                <label class="labelEdit">Diretor:</label>
+                <input id="diretorFilmeEdit" type="text" />
+            </div>
+            <div>
+                <label class="labelEdit">Atores:</label>
+                <input id="atoresFilmeEdit" type="text" />
+            
+                <label class="labelEdit">Ano:</label>
+                <input id="anoFilmeEdit"type="text" />
+            </div>
+            <div>
+                <label class="labelEdit">Duração:</label>
+                <input id="duracaoFilmeEdit" type="text" />
+            
+                <label class="labelEdit">Faixa Etária:</label>
+                <select id="faixaEtariaFilmeEdit">
+                    <option value="10">+10</option>
+                    <option value="12">+12</option>
+                    <option value="14">+14</option>
+                    <option value="16">+16</option>
+                    <option value="18">+18</option>
+                </select>
+            </div>
+            <div class="divSelect">
+                <label class="labelEdit">Nota</label>
+                <select id="notaFilmeEdit">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            
+                <label class="labelEdit" for="">Categoria</label>
+                <select id="categoriaFilmeEdit">
+                    <option value="1">Ação</option>
+                    <option value="2">Aventura</option>
+                    <option value="3">Comédia</option>
+                    <option value="4">Drama</option>
+                    <option value="5">Infantil</option>
+                    <option value="6">Terror</option>
+                </select>
+            </div> 
+    
+            <div class="regiaoBotaoEdit">
+                <button onclick="updateMovie()">Atualizar</button>
+            </div>
+        </form>
+    </main>
+    <footer class="rodape">
+        &copyFilmes 2022
+    </footer>
+</body>
+</html>
